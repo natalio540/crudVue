@@ -19,8 +19,9 @@ app.use(express.urlencoded({ extended: true }))
 //const uri = 'mongodb://localhost:27017/crudVue' 
 
 // conexiona base de datos en atlas mongo db
-const uri = "mongodb+srv://natalio:lezvBqicgiNlDfRZ@crud-mevn-1.nhruh.mongodb.net/crudVUe?retryWrites=true&w=majority"
-const uri
+const uri = "mongodb+srv://natalio:UQN7MG7YehAMaYSA@crud-mevn-1.nhruh.mongodb.net/crudVue?retryWrites=true&w=majority"
+
+
 const options = { useNewUrlParser: true , useUnifiedTopology: true, useCreateIndex:true }
 // Or using promises
 mongoose.connect(uri, options).then( 
